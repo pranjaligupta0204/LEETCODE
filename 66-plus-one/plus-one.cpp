@@ -13,8 +13,9 @@ public:
             }
         }
 
-        digits.insert(digits.begin(),1);
-        return digits;
+        vector<int> res(n + 1, 0);
+        res[0] = 1;
+        return res;
         
     }
 };
